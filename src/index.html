@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        Jorsh Career
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,
+wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:ital,opsz,
+wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">   
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="navbox">
+        <div id="navbar">
+            <img id="logo" alt=" Jorshlogo"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHo1V9_FOjV4Tr7VwJ_NQoCMZ4-Y7Swqzsog&s">
+        </div>
+        <div id="navname">
+            <h1 id="navheading">
+                Jorsh
+            </h1>
+        </div>
+    </div>
+    <img id="banner" src="Banner.jpg" alt="The banner image" height="240px">
+    <h1>
+        About Jorsh
+    </h1>
+    <div id="about">
+        <div id="description">
+            <p style="margin-top: 0;">
+                At Jorsh, we're on a mission to build
+                the world's most highly reputed technical
+                university and we're building it completely
+                online. We offer several beginner friendly
+                courses that are taken by <em>300,000+</em> registered
+                users
+            </p>
+            <p>
+                We also offer two(2) industry focused bootcamps;
+            <ol>
+                <li>
+                    <a href="https://www.youtube.com/@jovianhq" target="_blank">
+                        Jorsh Full Stack Development Bootcamp
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=fyhDaCbyec8" target="_blank">
+                        Jorsh Data Science Bootcamp
+                    </a>
+                </li>
+            </ol>
+            </p>
+        </div>
+        <div id="team">
+            <img id="teamimage" src="Team.jpg" alt="The team image">
+        </div>
+    </div>
+    <h2>Job Opportunities</h2>
+    <div id="jobs">
+        <table id="jobs-table">
+
+           <tr class="jobs-header-row">
+               <th rowspan="2">Job Title</th>
+               <th colspan="2"> Location</th>
+               <th rowspan="2">Salary</th>
+               <th rowspan="2">Posted On</th>
+           </tr>
+<tr class="jobs-header-row">
+    <th>City</th>
+    <th>Country</th>
+</tr>
+          
+           <tr class="jobs-data-row">
+               <td>Front End Developer</td>
+               <td>Bengaluru</td>
+               <td>India</td>
+               <td>$1,200,000</td>
+               <td>Mar 3, 2025</td>
+           </tr>
+
+           <tr class="jobs-data-row">
+               <td>Full Stack Developer</td>
+               <td>New delhi</td>
+               <td>India</td>
+               <td>$500,000</td>
+               <td>Mar 3, 2025</td>
+           </tr>
+
+           <tr class="jobs-data-row">
+               <td>Data Scientist</td>
+               <td>San Fransisco</td>
+               <td>USA</td>
+               <td>$200,000</td>
+               <td>Mar 3, 2025</td>
+           </tr>
+
+           <tr class="jobs-data-row">
+               <td>ML Engineer</td>
+               <td colspan="2">Remote</td>
+               <td>$175,000</td>
+               <td>Sep 25, 2025</td>
+           </tr>
+       </table>
+   </div>
+
+   <div id="application">
+   <h2> Submit Your Application</h2>
+   <form id="application-form">
+    <div class="form-group">
+        <label for="name">Full Name</label><br>
+        <input type="text" id="name" name="Full Name" required placeholder="John Doe">
+    </div>
+    <div class="form-group">
+        <label for="email"> E-mail</label><br>
+        <input type="email" id="email" name="Email Address" required placeholder="name@example.com">
+    </div>
+
+    <div class="form-group">
+        <label for="phone">Phone</label><br>
+        <input type="tel" id="phone" name="phone" required placeholder="+23412345678">
+    </div>
+
+    <div class="form-group">
+        <label for="dob">Date of Birth</label><br>
+        <input type="date" id="dob" name="dob">
+    </div>
+
+    <div class="form-group">
+        <label for="position">Positon Applied for</label><br>
+        <select id="position" name="Position Applied required">
+            <option value="">Select position</option>
+            <option value="front end developer">Front End Developer</option>
+            <option value="full stack developer">Full Stack Developer</option>
+            <option value="data scientist">Data scientist</option>
+            <option value="ml engineer">ML Engineer</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="resume">Upload Resume</label><br>
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+    </div>
+
+    <div class="form-group">
+        <label for="coverletter">Cover Letter</label><br>
+        <textarea id="coverletter" name="coverletter" rows="5"  placeholder="Explain what makes you suitable for the job..."></textarea> 
+    </div>
+
+    <div class="form-group">
+        <label for="Terms">
+        <input type="checkbox" id="terms" name="terms" required>
+        I agree to the terms and conditions </label><br>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Submit Application">  
+    </div>
+   </form>
+   </div>
+
+    <div id="footer">
+        <ul id="footer-links">
+            <li>
+                <a href="https://www.youtube.com/@jovianhq" target="_blank">
+                    Courses
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/@jovianhq" target="_blank">
+                    Programs
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/@jovianhq" target="_blank">
+                    youtube
+                </a>
+            </li>
+        </ul>
+        <span class="copy-right">© 2024 Jorsh</span>
+    </div>
+</body>
+
+</html>
